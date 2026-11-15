@@ -1,0 +1,135 @@
+{
+  "name": "agent-acceptance-kit",
+  "version": "v1",
+  "generated_at": "2026-11-15T11:12:20+08:00",
+  "file_count": 25,
+  "total_bytes": 104032,
+  "hash": "sha256",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 4112,
+      "sha256": "e8f4b689249d1b933051aab63ac3c776110cf86ad9ba4ceaee791c58a7c82af6"
+    },
+    {
+      "path": "PRICE-PAGE.md",
+      "bytes": 13356,
+      "sha256": "139677948f3f8ad7a84716e015911c78863820e90fc0c071b8a1474389183592"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11663,
+      "sha256": "79990f5559325551859cc9fed306d4947794230c43d99ce0ed9b39149789a859"
+    },
+    {
+      "path": "check.py",
+      "bytes": 33275,
+      "sha256": "85134c85ca37867be625ececabb0fef2c458003093b4da7c7f95778362ea7437"
+    },
+    {
+      "path": "examples/01-reject-adjectives/handoff.md",
+      "bytes": 309,
+      "sha256": "035d7c533a3166e4b33ca69c96ff799f82bf7e47ee80a023de7c54ec8c1e92c8"
+    },
+    {
+      "path": "examples/02-pass/demo_repo/calc.py",
+      "bytes": 147,
+      "sha256": "e2a8a5e8a98d921a4ec87ef66b8f1e200884197ab9151be89fbb939c89fb07e8"
+    },
+    {
+      "path": "examples/02-pass/demo_repo/gate_calc.py",
+      "bytes": 481,
+      "sha256": "52f58169f64943ffb1803ae67ba831e938b1b69b7e3bc8ee2003f4b15d33083b"
+    },
+    {
+      "path": "examples/02-pass/handoff.md",
+      "bytes": 404,
+      "sha256": "a96266296286b159be11a8fdeb04cafba8650f74a9172c96946fdf74fe7ddf9a"
+    },
+    {
+      "path": "examples/03-edge/api/gate_session.py",
+      "bytes": 696,
+      "sha256": "15adf5643a658dee47d69e58799bd6542e96c361900dda1820c4bf16dc663dd7"
+    },
+    {
+      "path": "examples/03-edge/api/session.py",
+      "bytes": 171,
+      "sha256": "4c0efdafd6ed41f1beb44a82569a32bd94a2bb37166de291f09722a36002fc7d"
+    },
+    {
+      "path": "examples/03-edge/handoff.md",
+      "bytes": 357,
+      "sha256": "565ff4e68df2ee0076cb0525de2c90671d07fe82c0d0dfba4c7e6fd4a429aab8"
+    },
+    {
+      "path": "examples/03-edge/web/login.js",
+      "bytes": 201,
+      "sha256": "088a0e2ddce7be6aff4313e9f67720798897d7e906211a612839c26ae2dc9ad1"
+    },
+    {
+      "path": "false-green-checklist.md",
+      "bytes": 8626,
+      "sha256": "77c505cee3c6c72d540a784bc460903fbed66d5731913bc72f44cfc3b7e2c9e6"
+    },
+    {
+      "path": "gates-annotated/01-article-length-kind-gate.py",
+      "bytes": 5569,
+      "sha256": "305d16b7a9137d3a40e23319ba2d1170fd44f6a3de2f6cecc61a1516bb963d37"
+    },
+    {
+      "path": "gates-annotated/02-number-entity-gate.py",
+      "bytes": 3820,
+      "sha256": "cad801295ea623e4440cd9abe6fd0510a52b5456b188ef178c0c60ac9bdd3390"
+    },
+    {
+      "path": "gates-annotated/03-headline-claim-gate.py",
+      "bytes": 5800,
+      "sha256": "83446baa52dcaa72326ab0888b8506c877e8650b3712d978af1e4ba0ef967e84"
+    },
+    {
+      "path": "licenses/MIT.txt",
+      "bytes": 1147,
+      "sha256": "909fb9b2154c309f3a34b2deee0dfeee72ef9dbf63d4e37f58aceaf213dce266"
+    },
+    {
+      "path": "make_manifest.py",
+      "bytes": 2561,
+      "sha256": "eb51522e56ee5635a92e8be4c2ee9ad04f9d70a1846c87f64bc090d414fa366b"
+    },
+    {
+      "path": "patterns/entity_verify.py",
+      "bytes": 3765,
+      "sha256": "429719ded3abcf13bef2199f4fdae32a359578ab5c4d2bf93508539418bd1e41"
+    },
+    {
+      "path": "patterns/negative_control.py",
+      "bytes": 2833,
+      "sha256": "6ea0a04e97746576fd7fe200ea25c84e65be28944e53a5066820978207242641"
+    },
+    {
+      "path": "patterns/number_traceback.py",
+      "bytes": 3387,
+      "sha256": "caa87a097f85c8d1c86bde502fa3dd0eca90056222ffa946c1b4a6624f27e7f3"
+    },
+    {
+      "path": "patterns/samples/draft.md",
+      "bytes": 80,
+      "sha256": "0a9d7fbed10e47444ed159555fa3317d28ae5e6c1c364ab0a62f39d153a19d33"
+    },
+    {
+      "path": "patterns/samples/entities.json",
+      "bytes": 58,
+      "sha256": "eb31aa4d47eda49859e4ff61a41da1b7c249d03027036b2b8602940ca2ee75fc"
+    },
+    {
+      "path": "patterns/samples/facts.json",
+      "bytes": 37,
+      "sha256": "408129489899f5ab8278d6645c89c0288012d0551634f5c6766749b85d87971f"
+    },
+    {
+      "path": "skeleton_30.py",
+      "bytes": 1177,
+      "sha256": "f8e731b5f684182e7047a919aac22d2ee40eb906a84d2aa2a7e8b2a89a98a9c0"
+    }
+  ]
+}

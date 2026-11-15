@@ -1,0 +1,70 @@
+agent-acceptance-kit v1 · 许可（LICENSE）
+生效：2026-11-10 · 替代 2026-11-06 的个人买断许可文本（旧文本见 git 历史 f4cd482）
+
+==================================================================
+一、这份文件选了哪个标准许可，为什么
+==================================================================
+
+选 **MIT**（全文见文末，逐字未改；同一份正文也备份在 `licenses/MIT.txt`）。
+
+为什么不是 CC BY-NC：
+  CC BY-NC 明文禁止「商业使用」。而本包的买家基本上都是拿它去验收工作项目或客户交付的代码——
+  那本身就是商业使用。选 CC BY-NC 等于把产品的主要用途写进禁止条款：买家付了 ¥19.9，
+  却不能用在自己接的活上。一个买家不能合法用在自己主场景上的许可，比没有许可更糟。
+
+为什么也不用 Apache-2.0 / GPL：
+  Apache-2.0 多出一层专利授权与改动声明义务，GPL 的传染性会污染买家的闭源项目。
+  两者都超出了这个包需要的东西：这里只有几千行判据代码和几份说明。
+
+MIT 的代价，写在这里不藏：
+  MIT 允许再分发与转售。我们不打算用许可条款去禁止转售——MIT 不允许附加限制，写了也无效；
+  而且这个包的内容本来就可以用 eslint / pre-commit / copier 这些免费工具自己拼出来
+  （见 `PRICE-PAGE.md`「你可能不该买」）。用许可造独占是假的，所以我们不造。
+
+==================================================================
+二、边界（一句话）
+==================================================================
+
+你可以把它用进任何项目（闭源、客户交付、公司内部都行），可以随意修改，可以再分发——包括转售；
+唯一的义务是保留下面的版权声明与这段许可文字。
+
+==================================================================
+三、与包内 `licenses/` 两份备选文本的关系
+==================================================================
+
+- `licenses/MIT.txt`：正文与本文文末的 MIT 全文是同一份文本（含同一行版权声明）。
+  该文件最后那行「当前生效许可是上级目录的 LICENSE（个人买断许可）」自 2026-11-10 起**作废**，以本文件为准。
+- `licenses/dual.txt`：作废备选，不再生效；保留只为不留白——它的假设是「先免费再卖商业授权」，而当前没有任何商业买家。
+
+==================================================================
+四、无担保
+==================================================================
+
+MIT 原文的 AS IS 段即全部担保条款，不额外补充、也不减损。
+本包判的是「证据结构在不在」，判不了「内容真不真」；是否采信它的判定，由使用者自负其责。
+
+==================================================================
+五、MIT 许可全文（逐字，未改）
+==================================================================
+
+MIT License
+
+Copyright (c) 2026 agent-acceptance-kit authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
